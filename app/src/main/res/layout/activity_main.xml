@@ -92,13 +92,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Obróć w lewo"/>
+            android:text="Obróć w lewo"
+            android:onClick="lewo"/>
         <Button
             android:id="@+id/button2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Obróć w prawo"/>
+            android:text="Obróć w prawo"
+            android:onClick="prawo"/>
     </LinearLayout>
     <TextView
         android:id="@+id/textView"
